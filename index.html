@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Knowledge Graph Fundamentals</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="pictures/bg_cities_keyvisual_01.jpeg"><h1 style="color: #FFFFFF; text-shadow: 3px 3px black">Fundamentals of Knowledgraphs</h1></section>
+				<section data-markdown>
+					<script type="text/template">
+						# Content 
+						* Knowledge Graphs in the Context of Databases and Graph Theory
+						* Serializations
+						* Resource Description Framework Toolbox
+						* Excurse: Property Graphs (and Reification)
+
+						What is the difference between the [Web and Internet](https://rubenverborgh.github.io/WebFundamentals/birds-eye-view/#who-is-who)?
+					</script>
+				</section>
+
+				<section>
+					<section data-background-color="#222222"><h2>From Relational Database Models to a Knowledge Graph</h2></section>	
+					<section data-background="/pictures/rdb_kg_1.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/rdb_kg_2.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/rdb_kg_3.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/rdb_kg_4.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/rdb_kg_5.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/rdb_kg_6.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/rdb_kg_7.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/rdb_kg_8.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/rdb_kg_9.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/rdb_kg_10.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/rdb_kg_11.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/rdb_kg_12.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/rdb_kg_13.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/rdb_kg_14.svg" data-background-size="contain"> </section>	
+				</section>
+
+				<section>
+					<section data-background-color="#222222"><h2>Serializations</h2></section>	
+					<section data-background="/pictures/ser_1.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/ser_2.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/ser_3.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/ser_4.svg" data-background-size="contain"> </section>	
+					<section data-background="/pictures/ser_5.svg" data-background-size="contain"> </section>	
+				</section>
+
+				<section>
+					<section data-markdown>
+					<script type="text/template">
+						# RDF Toolbox
+						
+						* Lives on the [Webstack](https://en.wikipedia.org/wiki/Semantic_Web_Stack)
+						* __[Open Standard](https://www.w3.org/TR/rdf11-concepts/) Data Model__
+						  * Simplicity and Agile Development
+						  * Independent (but coordinated) Development
+						  * *Reification*
+						* __[Globally Unique Identifiers](https://www.w3.org/TR/cooluris/)__
+						  * Concepts, Things and Schema alike
+						  * Data Integration
+					</script>
+					</section>
+					<section data-markdown>
+					<script type="text/template">
+						# RDF Toolbox
+						
+						* Documentation and Schema is part of the Data
+						* Multi Access Layer
+						  * [Files](/#/3/4) (High Portability)
+						  * [Dereferencing](https://www.w3.org/TR/webarch/#uri-dereference) [example](https://ld.admin.ch/canton/23)
+						  * [SPARQL](https://www.w3.org/TR/sparql11-query/) [demo](https://query.wikidata.org)
+						* Inferencing
+					</script>
+					</section>
+				</section>
+				<section>
+					<section data-background="/pictures/pg.svg" data-background-size="contain"> </section>	
+					<section data-markdown> <script type="text/template">
+						# Property Graph						
+						  [<img data-src="pictures/property_graph.jpeg">](https://github.com/tinkerpop/blueprints/wiki/Property-Graph-Model)
+					</script> </section>
+
+				</section>
+				<section data-markdown>
+					# Reification
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
